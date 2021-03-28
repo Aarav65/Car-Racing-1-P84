@@ -53,3 +53,80 @@ function my_keydown(e)
         console.log("up arrow key");
     }
 }
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '39')
+    {
+        car1_right();
+        console.log("right arrow key");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '40')
+    {
+        car1_down();
+        console.log("down arrow key");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '37')
+    {
+        car1_left();
+        console.log("left arrow key");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '87')
+    {
+        car2_up();
+        console.log("Key w");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '83')
+    {
+        car2_right();
+        console.log("Key s");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '65')
+    {
+        car2_down();
+        console.log("key a");
+    }
+}
+
+function my_keydown(e)
+{
+    keyPressed = e.keyCode;
+    console.log(keyPressed);
+    if(keyPressed == '68')
+    {
+        car2_left();
+        console.log("Key d");
+    }
+}
